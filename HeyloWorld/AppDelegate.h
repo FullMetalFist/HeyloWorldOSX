@@ -10,6 +10,8 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (IBAction)sayHello:(id)sender;
+- (IBAction)sayPaece:(id)sender;
 
 @end
 

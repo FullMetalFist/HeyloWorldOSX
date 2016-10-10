@@ -24,4 +24,11 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)sayHello:(id)sender {
+    NSLog(@"Heylo, World!");
+}
+
+- (IBAction)sayPaece:(id)sender {
+    NSLog(@"Paece!");
+}
 @end
