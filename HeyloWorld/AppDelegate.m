@@ -18,6 +18,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     NSLog(@"Ready and raring to go!");
+    self.messageTextField.stringValue = @"";
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -25,10 +26,12 @@
 }
 
 - (IBAction)sayHello:(id)sender {
-    NSLog(@"Heylo, World!");
+//    NSLog(@"Heylo, World!");
+    self.messageTextField.stringValue = @"Heylo, World!";
 }
 
 - (IBAction)sayPaece:(id)sender {
-    NSLog(@"Paece!");
+//    NSLog(@"Paece!");
+    self.messageTextField.stringValue = @"Paece!";
 }
 @end

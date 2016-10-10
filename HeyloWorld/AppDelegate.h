@@ -10,6 +10,8 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (weak) IBOutlet NSTextField *messageTextField;
+
 - (IBAction)sayHello:(id)sender;
 - (IBAction)sayPaece:(id)sender;
 
